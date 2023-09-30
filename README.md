@@ -4,6 +4,8 @@ FIX ME LIST:
 * Executing on Idle.bin only produce a small `story.json` file
 * Executing on Intro.bin only produce left eye images (from eye001.png to eye037.png) where there should be the double with left and right eyes
 * Naming of the file could contain the sequence identifier and the image in that sequence to help sort the images
+* Near line 209 in snxrom: # TODO add eye & seq data
+* 
 
 
 Workflow:
