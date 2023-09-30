@@ -1,3 +1,11 @@
+FIX ME LIST:
+* Generating *.png files, the red and blue color are inverted (fix provided)
+* --indir is NYI (Not Yet Implemented) => Maybe it should be
+* Executing on Idle.bin only produce a small `story.json` file
+* Executing on Intro.bin only produce left eye images (from eye001.png to eye037.png) where there should be the double with left and right eyes
+* Naming of the file could contain the sequence identifier and the image in that sequence to help sort the images
+
+
 Workflow:
  * Install [rhubarb](https://github.com/DanielSWolf/rhubarb-lip-sync) and `pip install g722_1_mod`.
  * Get an original `Intro.bin` file (in fact, back up all the contents of Teddy)
