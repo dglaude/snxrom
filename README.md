@@ -7,6 +7,22 @@ FIX ME LIST:
 * Near line 209 in snxrom: # TODO add eye & seq data
 * 
 
+Error: (notice the new feature to change the story_id)
+´C:\Project\TeddyRuxPin\SNXROM>python snxrom.py --infile Story11.bin --newid 1 --outfile NewStory01.bin > out_story11to1.txt´
+
+´´´
+  File "C:\Project\TeddyRuxPin\SNXROM\snxrom.py", line 354, in main
+    rom.saveBin(pathlib.Path(outfile))
+  File "C:\Project\TeddyRuxPin\SNXROM\snxrom.py", line 250, in saveBin
+    f.write(self.content)
+  File "C:\Project\TeddyRuxPin\SNXROM\snxrom.py", line 223, in content
+    assets.append(makeEyeData(eyeImage))
+  File "C:\Project\TeddyRuxPin\SNXROM\snxrom.py", line 179, in makeEyeData
+    r = numpy.array(eyeImage.getdata(0), dtype=numpy.uint16)
+AttributeError: 'int' object has no attribute 'getdata'
+´´´
+
+
 
 Workflow:
  * Install [rhubarb](https://github.com/DanielSWolf/rhubarb-lip-sync) and `pip install g722_1_mod`.
