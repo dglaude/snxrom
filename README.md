@@ -3,7 +3,7 @@ FIX ME LIST:
 * --indir is NYI (Not Yet Implemented) => Maybe it should be
 * Executing on Idle.bin only produce a small `story.json` file
 * Executing on Intro.bin only produce left eye images (from eye001.png to eye037.png) where there should be the double with left and right eyes
-* Naming of the file could contain the sequence identifier and the image in that sequence to help sort the images
+* (Naming of the file could contain the sequence identifier and the image in that sequence to help sort the images) maybe not
 * Near line 209 in snxrom: # TODO add eye & seq data
 * 
 
